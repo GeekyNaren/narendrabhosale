@@ -1,0 +1,142 @@
+body{
+  font-family: 'Merriweather', serif;
+  margin:0;
+  text-align:center;
+
+}
+h1{
+  color:#66BFBF;
+  margin: 50 auto 0 auto;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.600rem;
+
+}
+h2{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 70px auto;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.contact-message{
+  width:40%;
+  margin:40px auto;
+}
+
+.top-container{
+  background-image: url('https://media-exp1.licdn.com/dms/image/C4D16AQGr0R5wLSpOGw/profile-displaybackgroundimage-shrink_350_1400/0/1627755705696?e=1635984000&v=beta&t=18Yz7IEK3pF0c8g67mdQ6-erqbmlRqy5pmY-cKplbLY');
+  padding-top: 100px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.middle-container{
+  margin:100px 0;
+}
+
+.bottom-container{
+  background-color: #deddfa;
+  padding:50px;
+  position: relative;
+}
+
+.devil-logo{
+  height:100px;
+  width:100px;
+  border-radius: 100px;
+}
+
+.code-logo{
+  float:left;
+  width:25% !important;
+  height: 25% !important;
+  border-radius: 100px;
+  margin-right: 30px;
+}
+
+.gamer-logo{
+  float:right;
+  width:25%;
+  border-radius: 100px;
+  margin-left: 30px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom: 300px;
+}
+
+.font-normal{
+  font-weight: normal;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+}
+
+.contact-btn {
+	box-shadow:inset 0 1px 0 0 #54a3f7;
+	background:linear-gradient(to bottom, #00aaff 5%, #006bb8 100%);
+	background-color:#00aaff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #154682;
+}
+.contact-btn:hover {
+	background:linear-gradient(to bottom, #006bb8 5%, #00aaff 100%);
+	background-color:#006bb8;
+}
+.contact-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover{
+  color:#EAF6F6;
+}
+
+.credits{
+  color:grey;
+  font-size: 0.75rem;
+
+}
